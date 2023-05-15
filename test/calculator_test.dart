@@ -24,5 +24,13 @@ void main() {
         expect(result, -10);
       },
     );
+
+    test(
+      "Test Multiple function",
+      () {
+        final result = calculator.multiplication(10, 20);
+        expect(result, 200);
+      },
+    );
   });
 }
