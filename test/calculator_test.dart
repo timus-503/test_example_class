@@ -24,5 +24,13 @@ void main() {
         expect(result, -10);
       },
     );
+
+    test(
+      "Test Divide function",
+      () {
+        final result = calculator.divide(20, 2);
+        expect(result, 10);
+      },
+    );
   });
 }
